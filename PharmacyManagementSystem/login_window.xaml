@@ -1,0 +1,25 @@
+﻿<Window x:Class="PharmacyManagementSystem.login_window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PharmacyManagementSystem"
+        mc:Ignorable="d"
+        Title="login_window" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" MouseDown="Window_MouseDown">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="Login Window.jpg"/>
+        </Grid.Background>
+        <TextBlock HorizontalAlignment="Left" Margin="228,168,0,0" TextWrapping="Wrap" Text="USER LOGIN" VerticalAlignment="Top" Height="31" Width="203" FontSize="22" FontFamily="Tahoma" Foreground="#FF291670"/>
+        <TextBlock HorizontalAlignment="Left" Margin="228,199,0,0" TextWrapping="Wrap" Text="Welcome to Pharmacy Management System" VerticalAlignment="Top" Height="19" Width="361" FontFamily="Tahoma" Foreground="#FF291670" Opacity="0.5"/>
+        <Image HorizontalAlignment="Left" Height="145" Margin="673,295,0,0" VerticalAlignment="Top" Width="117" Source="273-2738719_user-login-icon-png-transparent-background-login-icon.png"/>
+        <TextBlock HorizontalAlignment="Left" Margin="162,10,0,0" TextWrapping="Wrap" Text="PHARMACY MANAGEMENT SYSTEM" VerticalAlignment="Top" Height="112" Width="563" FontSize="48" FontFamily="Perpetua Titling MT" Foreground="#FF291670"/>
+        <TextBlock HorizontalAlignment="Left" Margin="228,236,0,0" TextWrapping="Wrap" Text="User Name" VerticalAlignment="Top" Height="19" Width="79" FontFamily="Tahoma" Foreground="#FF291670" Opacity="0.5"/>
+        <TextBlock HorizontalAlignment="Left" Margin="228,283,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Height="19" Width="79" FontFamily="Tahoma" Foreground="#FF291670" Opacity="0.5"/>
+        <TextBox x:Name="txtUser" HorizontalAlignment="Left" Height="23" Margin="312,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <PasswordBox x:Name="pwdUser" HorizontalAlignment="Left" Margin="312,280,0,0" VerticalAlignment="Top" Width="158" RenderTransformOrigin="0.51,0.49" Height="23"/>
+        <Button x:Name="btnLogin" Content="LOG IN" HorizontalAlignment="Left" Margin="228,334,0,0" VerticalAlignment="Top" Width="140" Click="btnLogin_Click" Height="42" Foreground="#FF2A1570" Background="#FF9BBCFF" FontFamily="Tahoma" FontSize="14" BorderBrush="{x:Null}" />
+        <Button x:Name="btnCancel" Content="CANCEL" HorizontalAlignment="Left" Margin="425,334,0,0" VerticalAlignment="Top" Width="140" Click="btnCancel_Click" Height="42" Foreground="#FF2A1570" Background="#FF9BBCFF" FontFamily="Tahoma" FontSize="14" BorderBrush="{x:Null}" />
+
+    </Grid>
+</Window>

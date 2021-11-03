@@ -1,0 +1,15 @@
+﻿<Window x:Class="PharmacyManagementSystem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PharmacyManagementSystem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid x:Name="gridloading" Background="Black">
+        <MediaElement x:Name="media" HorizontalAlignment="center" Height="156" Margin="320,180,320,114" VerticalAlignment="center" Width="160" Source="7RwF.gif" MediaEnded="media_MediaEnded"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Loading" VerticalAlignment="Center" Foreground="White" FontSize="33" Margin="320,353,320,51" FontFamily="Stencil" Height="46" Width="160" TextAlignment="Center"/>
+
+
+    </Grid>
+</Window>
